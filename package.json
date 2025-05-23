@@ -11,9 +11,14 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
+    "@chakra-ui/react": "^3.19.1",
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "mongoose": "^8.15.0",
-    "nodemon": "^3.1.10"
+    "nodemon": "^3.1.10",
+    "react-shadow": "^20.6.0"
   }
 }
