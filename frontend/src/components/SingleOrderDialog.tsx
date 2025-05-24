@@ -72,7 +72,7 @@ export function SingleOrderDialog({ order }: SingleOrderDialogProps) {
                   </Box>
 
                   <Box>
-                    <Text fontWeight="bold">Timestamp:</Text>
+                    <Text fontWeight="bold">Order Date:</Text>
                     <Text>{format(new Date(order.createdAt), 'PPPpp')}</Text>
                   </Box>
                 </VStack>
