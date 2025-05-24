@@ -12,6 +12,8 @@ This is a full-stack application for managing products and orders. It includes a
 
 ## Technologies Used
 
+- **Frontend Web:** React, Axios, RTK query, Chakra UI
+- **Mobile App:** React Native, Expo, React Navigation, Axios, Redux toolkit, RTK query React Native Paper
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB with Mongoose
 - **Tools:** Git, Postman, ESLint, Prettier
@@ -22,6 +24,7 @@ This is a full-stack application for managing products and orders. It includes a
 
 - Node.js and npm
 - MongoDB (local or cloud like MongoDB Atlas)
+- Expo CLI (for React Native)
 - Git
 
 ### Backend Setup
@@ -50,6 +53,46 @@ This is a full-stack application for managing products and orders. It includes a
     ```bash
     npm run dev
     ```
+
+### Frontend Web Setup
+
+1. Navigate to the `frontend` directory:
+
+   ```bash
+   cd ../frontend
+   ```
+
+2. Install frontend dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the React development server:
+
+   ```bash
+   npm run dev
+   ```
+
+### Mobile App Setup (React Native)
+
+1. Navigate to the `mobileApp` directory:
+
+   ```bash
+   cd ../mobileApp
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Start the mobile app using Expo:
+
+   ```bash
+   npx expo start
+   ```
 
 ## API Endpoints
 
